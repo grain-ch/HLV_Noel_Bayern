@@ -1,0 +1,16 @@
+<GAS005_Heinkel_He9.mfm>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS.fx	</fx>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/aircraft/default_ao.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/aircraft/GAS005_Heinkel_He9_n.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/aircraft/GAS005_Heinkel_He9_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/aircraft/GAS005_Heinkel_He9_mg.dds	</Texture>
+	</property>
+</GAS005_Heinkel_He9.mfm>

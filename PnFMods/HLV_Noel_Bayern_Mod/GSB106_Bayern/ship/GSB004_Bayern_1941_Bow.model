@@ -1,0 +1,7 @@
+<GSB004_Bayern_1941_Bow.model>
+	<castsShadow>	true	</castsShadow>
+	<parent>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/ship/lods/GSB004_Bayern_1941_Bow_lod1	</parent>
+	<extent>	7.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/ship/GSB004_Bayern_1941_Bow	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</GSB004_Bayern_1941_Bow.model>

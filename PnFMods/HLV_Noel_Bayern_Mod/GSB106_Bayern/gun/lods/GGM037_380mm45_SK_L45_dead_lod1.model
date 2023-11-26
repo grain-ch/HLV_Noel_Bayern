@@ -1,0 +1,7 @@
+<GGM037_380mm45_SK_L45_dead_lod1.model>
+	<castsShadow>	true	</castsShadow>
+	<parent>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/gun/lods/GGM037_380mm45_SK_L45_dead_lod2	</parent>
+	<extent>	25.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/gun/lods/GGM037_380mm45_SK_L45_dead_lod1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</GGM037_380mm45_SK_L45_dead_lod1.model>
