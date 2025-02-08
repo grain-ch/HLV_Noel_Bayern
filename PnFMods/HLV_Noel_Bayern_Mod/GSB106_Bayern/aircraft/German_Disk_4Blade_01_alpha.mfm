@@ -2,7 +2,7 @@
 	<fx>	shaders/materials/pbs/propeller_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	diffuseMap
-		<Texture>	content/gameplay/germany/aircraft/scout/textures/German_Disk_4Blade_01_alpha_a.dds	</Texture>
+		<Texture>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/aircraft/German_Disk_4Blade_01_alpha_a.dds	</Texture>
 	</property>
 	<property>	doubleSided
 		<Bool>	false	</Bool>

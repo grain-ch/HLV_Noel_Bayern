@@ -1,7 +1,6 @@
 <GSB004_Bayern_1941_MidBack.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/ship/lods/GSB004_Bayern_1941_MidBack_lod1	</parent>
-	<extent>	7.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/ship/GSB004_Bayern_1941_MidBack	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/ship/GSB004_Bayern_1941_MidBack.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </GSB004_Bayern_1941_MidBack.model>

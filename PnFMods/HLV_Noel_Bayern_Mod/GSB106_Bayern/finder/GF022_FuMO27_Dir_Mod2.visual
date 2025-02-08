@@ -1,14 +1,7 @@
 <GF022_FuMO27_Dir_Mod2.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	GF022_FuMO27_Dir_Mod2	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,41 +9,116 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	MP_GM031_Mast_Base	</identifier>
-				<transform>
-					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
-					<row3>	0.0000 0.1605 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_GM032_Radar_FuMO27	</identifier>
+				<identifier>	GF022_FuMO27_Dir_Mod2	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.1198 0.0897 1.0000	</row3>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
+				<node>
+					<identifier>	MP_GM031_Mast_Base	</identifier>
+					<transform>
+						<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	0.0000 0.1604 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_GM032_Radar_FuMO27	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.1197 0.0897 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	GF022_FuMO27_Dir_Mod2	</node>
-		<geometry>
-			<vertices>	GF022_FuMO27_Dir_Mod2Shape.vertices	</vertices>
-			<primitive>	GF022_FuMO27_Dir_Mod2Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMAT_PBS_Misc	</identifier>
-					<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/finder/GF022_FuMO27_Dir_Mod2.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-0.2466 -0.0095 -0.1203	</min>
-		<max>	0.2466 0.1700 0.1137	</max>
+		<min>	-0.2465 -0.0095 -0.1202	</min>
+		<max>	0.2465 0.1699 0.1136	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	GF022_FuMO27_Dir_Mod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GF022_FuMO27_Dir_Mod2	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Misc	</identifier>
+				<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/finder/GF022_FuMO27_Dir_Mod2.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GF022_FuMO27_Dir_Mod2_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GF022_FuMO27_Dir_Mod2	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Misc	</identifier>
+				<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/finder/GF022_FuMO27_Dir_Mod2.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GF022_FuMO27_Dir_Mod2_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GF022_FuMO27_Dir_Mod2	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Misc	</identifier>
+				<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/finder/GF022_FuMO27_Dir_Mod2.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GF022_FuMO27_Dir_Mod2_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GF022_FuMO27_Dir_Mod2	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Misc	</identifier>
+				<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/finder/GF022_FuMO27_Dir_Mod2.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	GF022_FuMO27_Dir_Mod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	GF022_FuMO27_Dir_Mod2_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	15.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	GF022_FuMO27_Dir_Mod2_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	150.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	GF022_FuMO27_Dir_Mod2_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </GF022_FuMO27_Dir_Mod2.visual>

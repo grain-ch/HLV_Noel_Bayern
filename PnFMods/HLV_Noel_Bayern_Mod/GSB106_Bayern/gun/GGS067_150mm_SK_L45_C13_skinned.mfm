@@ -1,4 +1,5 @@
 <GGS067_150mm_SK_L45_C13_skinned.mfm>
+	<!--<fx>	shaders/materials/pbs/ship_material_skinned.fx	</fx>-->
 	<fx>	shaders/std_effects/PBS_ship_skinned.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap

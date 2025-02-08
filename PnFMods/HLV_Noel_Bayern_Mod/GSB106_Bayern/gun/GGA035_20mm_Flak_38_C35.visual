@@ -1,14 +1,7 @@
 <GGA035_20mm_Flak_38_C35.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	GGA035_20mm_Flak_38_C35	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,59 +9,134 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	HP_gunFire1	</identifier>
+				<identifier>	GGA035_20mm_Flak_38_C35	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	-0.0237 0.1589 0.0973 1.0000	</row3>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	0.0239 0.1589 0.0973 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire3	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	-0.0237 0.1404 0.1080 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire4	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	0.0239 0.1404 0.1080 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	-0.0237 0.1588 0.0973 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	0.0239 0.1588 0.0973 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	-0.0237 0.1403 0.1079 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire4	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	0.0239 0.1403 0.1079 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	GGA035_20mm_Flak_38_C35	</node>
-		<geometry>
-			<vertices>	GGA035_20mm_Flak_38_C35Shape.vertices	</vertices>
-			<primitive>	GGA035_20mm_Flak_38_C35Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
-					<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/gun/GGA035_22mm_Flak_C35.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-0.0904 -0.0012 -0.1112	</min>
-		<max>	0.0906 0.2501 0.1991	</max>
+		<min>	-0.0904 -0.0012 -0.1111	</min>
+		<max>	0.0906 0.2500 0.1990	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	GGA035_20mm_Flak_38_C35Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GGA035_20mm_Flak_38_C35	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/gun/GGA035_22mm_Flak_C35.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GGA035_20mm_Flak_38_C35_lodShape1	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GGA035_20mm_Flak_38_C35	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/gun/GGA035_22mm_Flak_C35.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GGA035_20mm_Flak_38_C35_lodShape2	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GGA035_20mm_Flak_38_C35	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/gun/GGA035_22mm_Flak_C35.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GGA035_20mm_Flak_38_C35_lodShape3	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GGA035_20mm_Flak_38_C35	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Noel_Bayern_Mod/GSB106_Bayern/gun/GGA035_22mm_Flak_C35.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	GGA035_20mm_Flak_38_C35Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	10.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	GGA035_20mm_Flak_38_C35_lodShape1	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	20.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	GGA035_20mm_Flak_38_C35_lodShape2	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	50.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	GGA035_20mm_Flak_38_C35_lodShape3	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </GGA035_20mm_Flak_38_C35.visual>
